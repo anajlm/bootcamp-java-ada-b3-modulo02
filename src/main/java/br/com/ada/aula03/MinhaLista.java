@@ -10,6 +10,7 @@ public class MinhaLista<T extends Identified<U>, U> {
     public MinhaLista(){
         this.lista = new ArrayList<>();
     }
+    
     public void adicionar(T elemento) {
         lista.add(elemento);
     }
